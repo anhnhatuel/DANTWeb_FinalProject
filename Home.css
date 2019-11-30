@@ -96,6 +96,7 @@ body {
     }
 
     .flex-container1 .dungthu {
+        display: block;
         text-align: center;
         align-self: center;
         width: 15%;
@@ -108,8 +109,22 @@ body {
         font-family: HelveticaRegular;
         text-decoration: none;
         min-width: max-content;
+        transition: all 0.2s ease-in-out;
+        position: relative;
+    }
+    
+    
+    .dungthu:hover{
+        transform: scale(1.5,1.5);
+        background-color:rgba(255, 127, 80,0.5);
+        transform: translate(0px, -10px);
+        transition: 0.5s;
+
+
+
     }
 
+    
     .flex-container1 a {
         text-decoration: none;
     }
@@ -351,4 +366,4 @@ body {
         text-align: center;
         justify-content: center;
         align-items: center;
-    }
+    }    
