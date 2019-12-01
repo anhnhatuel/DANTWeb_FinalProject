@@ -144,22 +144,6 @@
             color: white;
         }
 
-        .nhanbaivietmoinhat {
-            text-align: center;
-            align-self: center;
-            width: 15%;
-            padding: 0.6% 1.4% 1.1%;
-            margin-top: 15vh;
-            margin-left: 0.5em;
-            background-color: #FF7F50;
-            border-radius: 10px;
-            color: white;
-            font-size: 20px;
-            text-decoration: none;
-            min-width: max-content;
-            display: inline;
-        }
-
         #email {
             font-size: 20px;
             border-radius: 10px;
@@ -167,7 +151,34 @@
             padding-right: 1em;
             width: 35vw;
             height: 6vh;
+            display: inline;
+            box-shadow: 2px 5px 5px #000;
         }
+
+        .nhanbaivietmoinhat {
+            text-align: center;
+            width: 15%;
+            margin-top: 1em;
+            padding: 0.6% 1.4% 1.1%;
+            display: inline;
+            background-color: #FF7F50;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            min-width: max-content;
+        box-shadow: 2px 5px 5px #000;
+        overflow: hidden;
+        }
+        .nhanbaivietmoinhat:hover{
+        background-color:#F5865D;
+        transition: 0.2s;
+    }
+    
+    .nhanbaivietmoinhat:active{
+        box-shadow: none;
+    }
+
 
         .grid-main {
             padding-top: 2em;
@@ -313,10 +324,13 @@
             Học viên DANTWeb là trang chia sẻ kiến thức về thiết kế website, kinh doanh online,
             bán hàng đa kệnh omnichannel - giải pháp tối ưu cho doanh nghiệp.
         </p>
-        <input type="text" id="email" placeholder="Nhập email của bạn..." />
-        <div class="nhanbaivietmoinhat">
-            Nhận bài viết mới nhất
-        </div>
+        <p>
+            <span>
+        <input type="text" id="email" placeholder="Nhập email của bạn..." /> </span>
+        <span class="nhanbaivietmoinhat">
+            Nhận bài viết mới nhất </span>
+        </p>
+    </p>
     </div>
     <div class="grid-main">
         <!--Bài báo đầu trang-->

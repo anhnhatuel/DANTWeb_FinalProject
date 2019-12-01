@@ -111,20 +111,20 @@ body {
         min-width: max-content;
         transition: all 0.2s ease-in-out;
         position: relative;
+        box-shadow: 2px 5px 5px #000;
+        overflow: hidden;
     }
-    
     
     .dungthu:hover{
-        transform: scale(1.5,1.5);
-        background-color:rgba(255, 127, 80,0.5);
-        transform: translate(0px, -10px);
-        transition: 0.5s;
-
-
-
+        background-color:#F5865D;
+        transition: 0.2s;
+    }
+    
+    .dungthu:active{
+        transform: translate(2px, 5px);
+        box-shadow: none;
     }
 
-    
     .flex-container1 a {
         text-decoration: none;
     }
@@ -153,6 +153,8 @@ body {
         padding-right: 2vw;
         margin-left: 5vw;
         align-self: center;
+        transform: translate3d(0px, -31.66px, 0px);
+
     }
 /*Sở hữu website chuyên nghiệp chưa bao giờ dễ dàng đến thế.*/
 .flex-container3 {
@@ -321,6 +323,9 @@ body {
         font-size: 20px;
         flex-shrink: 1;
         min-width: fit-content;
+    }
+    .flex-container6 .dungthu:hover{
+        background:rgba(0,0,0,0.25);
     }
 
 .footer {

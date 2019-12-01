@@ -202,8 +202,13 @@ p {
         font-size: 20px;
         flex-shrink: 1;
         min-width: fit-content;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 2px 5px 5px #000;
     }
-
+.dungthu:hover{
+    background:#F5865D;
+    transition: 0.2s;
+}
 body {
     flex-wrap:nowrap;
 }
